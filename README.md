@@ -17,7 +17,6 @@ source venv/bin/activate
 
 **Run**
 ```
-pip install -r requirements.txt
 python3 mp4.py #download youtube playlist 
 python3 process_mp4.py #crop and split videos 
 ```
