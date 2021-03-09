@@ -83,3 +83,5 @@ with open(f_vidlist, mode='w') as input_file:
 f_com = join(outdir, 'combined.mp4')
 cmd = f('ffmpeg -f concat -safe 0 -i {f_vidlist} -c copy {f_com}')
 out = subprocess.check_output(cmd, shell=True, stderr=STDOUT)
+
+print('Done')
