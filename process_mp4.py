@@ -30,13 +30,13 @@ for v, (_, video) in enumerate(table.iterrows()):
     fpath = join(sourcedir, video.original_filename)
     assert isfile(fpath)
 
-    print('\tcutting video..')
+    print('\tcutting video')
     tstart = timedelta(seconds=video.start_time)
     f_vid_cut = join(interdir, video.stimulus_name + '_cut.mp4')
     cmd = f('ffmpeg -y -ss {tstart} -i "{fpath}" -t {dur} -c copy {f_vid_cut}')
     out = subprocess.check_output(cmd, shell=True, stderr=STDOUT)
 
-    print('\tnormalizing loudness..')
+    print('\tnormalizing loudness')
     f_vid_norm = join(interdir, video.stimulus_name + '_normalized.mp4')
     ffmpeg_normalize = FFmpegNormalize(
         audio_codec='aac',
@@ -45,16 +45,16 @@ for v, (_, video) in enumerate(table.iterrows()):
     ffmpeg_normalize.add_media_file(f_vid_cut, f_vid_norm)
     ffmpeg_normalize.run_normalization()
 
-    print('\tcropping video..')
+    print('\tcropping video')
     f_vid_cropped = join(interdir, video.stimulus_name + '_cropped.mp4')
     half_size = int(video.crop_size / 2)
-    x = video.center_x - half_size
-    y = video.center_y - half_size
+    x = video.centre_x - half_size
+    y = video.centre_y - half_size
     w, h = video.crop_size, video.crop_size
     cmd = f('ffmpeg -y -i {f_vid_norm} -filter:v "crop={w}:{h}:{x}:{y}" {f_vid_cropped}')
     out = subprocess.check_output(cmd, shell=True, stderr=STDOUT)
 
-    print('\tscaling video..')
+    print('\tscaling video')
     f_vid_scaled = join(interdir, video.stimulus_name + '_scaled.mp4')
     cmd = f('ffmpeg -y -i {f_vid_cropped} -vf scale=256:256 {f_vid_scaled}') 
     out = subprocess.check_output(cmd, shell=True, stderr=STDOUT)
@@ -63,18 +63,18 @@ for v, (_, video) in enumerate(table.iterrows()):
     f_vid = join(videodir, video.stimulus_name + '.mp4')
     shutil.copyfile(f_vid_scaled, f_vid)
 
-    print('\textracting audio..')
+    print('\textracting audio')
     f_aud = join(audiodir, video.stimulus_name + '.wav')
     cmd = f('ffmpeg -y -i {f_vid} -ab 160k -ac 2 -ar 44100 -vn {f_aud}')
     out = subprocess.check_output(cmd, shell=True, stderr=STDOUT)
 
-    print('\textracting image..')
+    print('\textracting image')
     tstill = timedelta(seconds=video.tstill)-tstart
     f_img = join(imgdir, video.stimulus_name + '.png')
     cmd = f('ffmpeg -y -i {f_vid} -ss {tstill} -vframes 1 {f_img}')
     out = subprocess.check_output(cmd, shell=True, stderr=STDOUT)
 
-print('combining videos..')
+print('combining videos')
 f_vidlist = join(outdir, 'videos.txt')
 with open(f_vidlist, mode='w') as input_file:
     video_list = glob.glob(join(videodir, '*.mp4'))
