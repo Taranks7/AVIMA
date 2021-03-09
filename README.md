@@ -17,6 +17,6 @@ source venv/bin/activate
 
 **Run**
 ```
-python3 mp4.py #download youtube playlist 
-python3 process_mp4.py #crop and split videos 
+python3 mp4.py #download youtube playlist and individual videos 
+python3 process_mp4.py #process videos - cut, crop, scale, normalise sound, extract audio, extract image and save
 ```
