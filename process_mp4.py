@@ -13,8 +13,9 @@ outdir = expanduser('~/Audio-visual_similarity/processed')
 videodir = join(outdir, 'video')
 interdir = join(outdir, 'intermediate')
 audiodir = join(outdir, 'audio')
+videonoaudiodir = join(outdir, 'noaudio')
 imgdir = join(outdir, 'image')
-for subdir in (audiodir, imgdir, videodir, interdir):
+for subdir in (audiodir, videonoaudiodir, imgdir, videodir, interdir):
     if not isdir(subdir):
         os.mkdir(subdir)
 
@@ -72,7 +73,17 @@ for v, (_, video) in enumerate(table.iterrows()):
     tstill = timedelta(seconds=video.tstill)-tstart
     f_img = join(imgdir, video.stimulus_name + '.png')
     cmd = f('ffmpeg -y -i {f_vid} -ss {tstill} -vframes 1 {f_img}')
+    out = subprocess.check_output(cmd, shell=True, stderr=STDOUT) 
+    
+    print('\tremoving audio')
+    f_vid_noaudio = join(interdir, video.stimulus_name + '_noaudio.mp4')
+    cmd = f('ffmpeg -y -i {f_vid} -an {f_vid_noaudio}') 
     out = subprocess.check_output(cmd, shell=True, stderr=STDOUT)
+    
+    print('\tsaving video with no audio')
+    f_videonoaudio = join(videonoaudiodir, video.stimulus_name + 'noaudio.mp4')
+    shutil.copyfile(f_vid_noaudio, f_videonoaudio)
+    
 
 print('combining videos')
 f_vidlist = join(outdir, 'videos.txt')
