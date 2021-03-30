@@ -1,7 +1,7 @@
 # Audio-visual stimuli representational similarity analysis (RSA) project for Cognitive Robotics Master's Dissertation 
 
 ## Experiment 
-- [Meadows platform, Multiple arrangements tasks](https://meadows-research.com/users/Taranks7/)
+- [Meadows platform, Multiple arrangements tasks](https://meadows-research.com/experiments/Audio-Visual_RSA/)
 
 ## Set up ## 
 **Setting up the environment:**
