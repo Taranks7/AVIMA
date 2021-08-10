@@ -1,0 +1,330 @@
+4.7393 	INFO 	Loaded monitor calibration from ['2019_07_22 12:43']
+4.7401 	WARNING 	User requested fullscreen with size [800 600], but screen is actually [1920, 1080]. Using actual size
+5.6628 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f134ad0c6a0>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f134da87940>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1920, 1080]), stereo=False, units='deg', useFBO=False, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+0.0821 	EXP 	104,bird_singing,video,regular
+0.0820 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/bird_singing.mp4'
+4.4993 	EXP 	102,baby_singing,video,regular
+4.4990 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/baby_singing.mp4'
+8.9158 	EXP 	250,baby_singing,image,nback
+11.7200 	DATA 	Keypress: num_add
+13.0898 	EXP 	95,steam_train,audio,regular
+17.4160 	EXP 	183,people_running,auvid,regular
+17.4159 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/people_running.mp4'
+18.6660 	EXP 	116,drum_roll,video,regular
+18.6660 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/drum_roll.mp4'
+23.0329 	EXP 	194,snowfall,auvid,regular
+23.0329 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/snowfall.mp4'
+24.4331 	DATA 	Keypress: num_add
+25.6906 	EXP 	250,snowfall,audio,nback
+28.4935 	DATA 	Keypress: num_add
+29.7496 	EXP 	81,male_choir,audio,regular
+34.1010 	EXP 	192,river,auvid,regular
+34.1009 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/river.mp4'
+35.3676 	EXP 	190,police_car_with_siren,auvid,regular
+35.3676 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/police_car_with_siren.mp4'
+37.9678 	DATA 	Keypress: num_add
+39.1163 	EXP 	72,hammer_a_nail,audio,regular
+43.3792 	EXP 	92,river,audio,regular
+47.5847 	EXP 	181,male_choir,auvid,regular
+47.5846 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/male_choir.mp4'
+51.8516 	EXP 	105,boiling_water_with_kettle,video,regular
+51.8515 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/boiling_water_with_kettle.mp4'
+56.2018 	EXP 	107,bubble_wrap_popping,video,regular
+56.2018 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/bubble_wrap_popping.mp4'
+60.5353 	EXP 	130,lion_roar,video,regular
+60.5352 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/lion_roar.mp4'
+64.8854 	EXP 	199,walking_on_gravel,auvid,regular
+64.8853 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/walking_on_gravel.mp4'
+69.1352 	EXP 	98,typing_keyboard,audio,regular
+73.4190 	EXP 	40,police_car_with_siren,image,regular
+77.6360 	EXP 	121,guitar_plucking,video,regular
+77.6360 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/guitar_plucking.mp4'
+81.9361 	EXP 	124,helicopter_landing,video,regular
+81.9360 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/helicopter_landing.mp4'
+86.3529 	EXP 	25,horse_neighing,image,regular
+90.6198 	EXP 	9,chainsaw_cutting,image,regular
+94.9033 	EXP 	145,steam_train,video,regular
+94.9032 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/steam_train.mp4'
+99.2035 	EXP 	184,person_laughing,auvid,regular
+99.2034 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/person_laughing.mp4'
+103.6370 	EXP 	30,lion_roar,image,regular
+107.9038 	EXP 	114,dot_matrix_printer,video,regular
+107.9038 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/dot_matrix_printer.mp4'
+112.1603 	EXP 	57,bubble_wrap_popping,audio,regular
+116.2542 	EXP 	31,male_choir,image,regular
+120.5711 	EXP 	158,cat_meowing,auvid,regular
+120.5711 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/cat_meowing.mp4'
+124.8711 	EXP 	150,wind,video,regular
+124.8711 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/wind.mp4'
+129.2880 	EXP 	119,fireplace,video,regular
+129.2880 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/fireplace.mp4'
+133.7216 	EXP 	156,boxing,auvid,regular
+133.7216 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/boxing.mp4'
+138.1551 	EXP 	149,walking_on_gravel,video,regular
+138.1551 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/walking_on_gravel.mp4'
+142.5219 	EXP 	188,pig_oink,auvid,regular
+142.5219 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/pig_oink.mp4'
+146.9387 	EXP 	47,tearing_paper,image,regular
+151.1556 	EXP 	250,tearing_paper,auvid,nback
+151.1555 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/tearing_paper.mp4'
+151.8890 	DATA 	Keypress: num_add
+153.0723 	EXP 	179,lighter,auvid,regular
+153.0723 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/lighter.mp4'
+157.3892 	EXP 	198,typing_keyboard,auvid,regular
+157.3892 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/typing_keyboard.mp4'
+161.6860 	EXP 	74,helicopter_landing,audio,regular
+165.9330 	EXP 	51,baby_laughing,audio,regular
+170.1897 	EXP 	166,drum_roll,auvid,regular
+170.1897 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/drum_roll.mp4'
+174.5399 	EXP 	2,baby_singing,image,regular
+178.7401 	EXP 	135,person_singing,video,regular
+178.7400 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/person_singing.mp4'
+183.1402 	EXP 	11,cow_moo,image,regular
+187.3409 	EXP 	82,mud_bubbling,audio,regular
+191.4906 	EXP 	7,bubble_wrap_popping,image,regular
+195.6906 	EXP 	1,baby_laughing,image,regular
+199.7436 	EXP 	78,kid_screaming,audio,regular
+203.8077 	EXP 	50,wind,image,regular
+207.9413 	EXP 	144,snowfall,video,regular
+207.9413 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/snowfall.mp4'
+212.1400 	EXP 	54,bird_singing,audio,regular
+216.4416 	EXP 	250,bird_singing,auvid,nback
+216.4415 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/bird_singing.mp4'
+217.2751 	DATA 	Keypress: num_add
+218.3377 	EXP 	93,rooster_crowing,audio,regular
+222.5584 	EXP 	250,rooster_crowing,audio,nback
+225.3614 	DATA 	Keypress: num_add
+226.8587 	EXP 	127,key_open_a_door,video,regular
+226.8586 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/key_open_a_door.mp4'
+228.1086 	EXP 	32,mud_bubbling,image,regular
+232.4089 	EXP 	141,rain,video,regular
+232.4089 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/rain.mp4'
+236.8424 	EXP 	152,baby_singing,auvid,regular
+236.8423 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/baby_singing.mp4'
+241.1425 	EXP 	112,dolphin_call,video,regular
+241.1425 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/dolphin_call.mp4'
+245.4779 	EXP 	64,dot_matrix_printer,audio,regular
+249.5466 	EXP 	68,finger_snapping,audio,regular
+253.7764 	EXP 	13,donkey_braying,image,regular
+257.9026 	EXP 	66,drum_roll,audio,regular
+262.1434 	EXP 	176,interview,auvid,regular
+262.1434 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/interview.mp4'
+266.2788 	EXP 	52,baby_singing,audio,regular
+270.5271 	EXP 	8,cat_meowing,image,regular
+274.7605 	EXP 	35,person_singing,image,regular
+278.8774 	EXP 	250,person_singing,image,nback
+281.6804 	DATA 	Keypress: num_add
+283.1109 	EXP 	175,horse_neighing,auvid,regular
+283.1109 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/horse_neighing.mp4'
+284.3610 	EXP 	193,rooster_crowing,auvid,regular
+284.3609 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/rooster_crowing.mp4'
+288.6444 	EXP 	4,bird_singing,image,regular
+292.7945 	EXP 	85,person_singing,audio,regular
+296.9448 	EXP 	137,piano_player,video,regular
+296.9448 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/piano_player.mp4'
+301.4193 	EXP 	63,donkey_braying,audio,regular
+305.6119 	EXP 	143,rooster_crowing,video,regular
+305.6118 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/rooster_crowing.mp4'
+309.8786 	EXP 	147,tearing_paper,video,regular
+309.8786 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/tearing_paper.mp4'
+314.2623 	EXP 	189,plane_taking_off,auvid,regular
+314.2622 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/plane_taking_off.mp4'
+318.5123 	EXP 	103,beach,video,regular
+318.5123 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/beach.mp4'
+322.9292 	EXP 	26,interview,image,regular
+327.1794 	EXP 	197,tearing_paper,auvid,regular
+327.1793 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/tearing_paper.mp4'
+328.2129 	DATA 	Keypress: num_add
+329.3628 	EXP 	134,person_laughing,video,regular
+329.3627 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/person_laughing.mp4'
+333.7797 	EXP 	136,person_speaking_in_natural_scene,video,regular
+333.7796 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/person_speaking_in_natural_scene.mp4'
+338.1466 	EXP 	161,cow_moo,auvid,regular
+338.1465 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/cow_moo.mp4'
+342.3173 	EXP 	250,cow_moo,audio,nback
+345.1203 	DATA 	Keypress: num_add
+346.3969 	EXP 	42,river,image,regular
+350.5469 	EXP 	34,person_laughing,image,regular
+354.7804 	EXP 	3,beach,image,regular
+358.9306 	EXP 	186,person_speaking_in_natural_scene,auvid,regular
+358.9305 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/person_speaking_in_natural_scene.mp4'
+360.0806 	EXP 	44,snowfall,image,regular
+364.3308 	EXP 	154,bird_singing,auvid,regular
+364.3308 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/bird_singing.mp4'
+368.5476 	EXP 	174,helicopter_landing,auvid,regular
+368.5476 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/helicopter_landing.mp4'
+372.8979 	EXP 	171,guitar_plucking,auvid,regular
+372.8978 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/guitar_plucking.mp4'
+377.1871 	EXP 	69,fireplace,audio,regular
+381.3481 	EXP 	5,boiling_water_with_kettle,image,regular
+385.6650 	EXP 	131,male_choir,video,regular
+385.6650 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/male_choir.mp4'
+390.0319 	EXP 	153,beach,auvid,regular
+390.0318 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/beach.mp4'
+394.4320 	EXP 	14,dot_matrix_printer,image,regular
+398.7821 	EXP 	200,wind,auvid,regular
+398.7820 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/wind.mp4'
+403.1490 	EXP 	165,drinking_sounds,auvid,regular
+403.1489 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/drinking_sounds.mp4'
+407.3658 	EXP 	6,boxing,image,regular
+411.6494 	EXP 	120,glass_breaking,video,regular
+411.6494 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/glass_breaking.mp4'
+415.9829 	EXP 	195,steam_train,auvid,regular
+415.9828 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/steam_train.mp4'
+420.3996 	EXP 	46,sweep,image,regular
+424.4999 	EXP 	123,heartbeat,video,regular
+424.4999 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/heartbeat.mp4'
+428.8667 	EXP 	155,boiling_water_with_kettle,auvid,regular
+428.8666 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/boiling_water_with_kettle.mp4'
+433.3335 	EXP 	132,mud_bubbling,video,regular
+433.3334 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/mud_bubbling.mp4'
+437.6796 	EXP 	84,person_laughing,audio,regular
+441.8673 	EXP 	126,interview,video,regular
+441.8673 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/interview.mp4'
+446.1173 	EXP 	129,lighter,video,regular
+446.1172 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/lighter.mp4'
+450.3675 	EXP 	146,sweep,video,regular
+450.3675 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/sweep.mp4'
+454.5157 	EXP 	56,boxing,audio,regular
+458.7512 	EXP 	33,people_running,image,regular
+463.0124 	EXP 	61,cow_moo,audio,regular
+467.1002 	EXP 	99,walking_on_gravel,audio,regular
+471.2350 	EXP 	115,drinking_sounds,video,regular
+471.2349 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/drinking_sounds.mp4'
+475.6351 	EXP 	106,boxing,video,regular
+475.6351 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/boxing.mp4'
+479.9855 	EXP 	101,baby_laughing,video,regular
+479.9854 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/baby_laughing.mp4'
+484.2123 	EXP 	96,sweep,audio,regular
+488.3024 	EXP 	108,cat_meowing,video,regular
+488.3023 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/cat_meowing.mp4'
+492.6191 	EXP 	37,piano_player,image,regular
+496.8026 	EXP 	191,rain,auvid,regular
+496.8026 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/rain.mp4'
+501.0862 	EXP 	23,heartbeat,image,regular
+505.3363 	EXP 	162,dolphin_call,auvid,regular
+505.3362 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/dolphin_call.mp4'
+509.6501 	EXP 	90,police_car_with_siren,audio,regular
+513.9033 	EXP 	27,key_open_a_door,image,regular
+518.1730 	EXP 	53,beach,audio,regular
+522.2783 	EXP 	94,snowfall,audio,regular
+526.5871 	EXP 	16,drum_roll,image,regular
+530.8373 	EXP 	250,drum_roll,image,nback
+533.6404 	DATA 	Keypress: num_add
+535.0208 	EXP 	142,river,video,regular
+535.0208 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/river.mp4'
+536.0842 	EXP 	59,chainsaw_cutting,audio,regular
+540.1597 	EXP 	97,tearing_paper,audio,regular
+544.4216 	EXP 	48,typing_keyboard,image,regular
+548.5546 	EXP 	164,dot_matrix_printer,auvid,regular
+548.5546 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/dot_matrix_printer.mp4'
+552.9881 	EXP 	160,child_crying,auvid,regular
+552.9880 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/child_crying.mp4'
+557.3716 	EXP 	28,kid_screaming,image,regular
+561.5512 	EXP 	100,wind,audio,regular
+565.8235 	EXP 	83,people_running,audio,regular
+569.9554 	EXP 	21,guitar_plucking,image,regular
+574.0556 	EXP 	122,hammer_a_nail,video,regular
+574.0555 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/hammer_a_nail.mp4'
+578.3062 	EXP 	87,piano_player,audio,regular
+582.4437 	EXP 	80,lion_roar,audio,regular
+586.5060 	EXP 	10,child_crying,image,regular
+590.7229 	EXP 	109,chainsaw_cutting,video,regular
+590.7228 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/chainsaw_cutting.mp4'
+595.1730 	EXP 	182,mud_bubbling,auvid,regular
+595.1730 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/mud_bubbling.mp4'
+599.5565 	EXP 	12,dolphin_call,image,regular
+603.8566 	EXP 	159,chainsaw_cutting,auvid,regular
+603.8566 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/chainsaw_cutting.mp4'
+608.2018 	EXP 	67,eating_sounds,audio,regular
+612.4236 	EXP 	111,cow_moo,video,regular
+612.4236 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/cow_moo.mp4'
+616.6528 	EXP 	65,drinking_sounds,audio,regular
+620.8302 	EXP 	58,cat_meowing,audio,regular
+625.0041 	EXP 	79,lighter,audio,regular
+629.2576 	EXP 	24,helicopter_landing,image,regular
+633.3757 	EXP 	55,boiling_water_with_kettle,audio,regular
+637.6581 	EXP 	170,glass_breaking,auvid,regular
+637.6580 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/glass_breaking.mp4'
+641.8715 	EXP 	76,interview,audio,regular
+646.1084 	EXP 	140,police_car_with_siren,video,regular
+646.1083 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/police_car_with_siren.mp4'
+650.5418 	EXP 	157,bubble_wrap_popping,auvid,regular
+650.5417 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/bubble_wrap_popping.mp4'
+654.9588 	EXP 	173,heartbeat,auvid,regular
+654.9588 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/heartbeat.mp4'
+659.2756 	EXP 	117,eating_sounds,video,regular
+659.2755 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/eating_sounds.mp4'
+663.6452 	EXP 	75,horse_neighing,audio,regular
+667.7924 	EXP 	49,walking_on_gravel,image,regular
+672.0759 	EXP 	180,lion_roar,auvid,regular
+672.0759 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/lion_roar.mp4'
+676.4262 	EXP 	125,horse_neighing,video,regular
+676.4261 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/horse_neighing.mp4'
+680.7930 	EXP 	43,rooster_crowing,image,regular
+684.9431 	EXP 	128,kid_screaming,video,regular
+684.9430 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/kid_screaming.mp4'
+689.2433 	EXP 	163,donkey_braying,auvid,regular
+689.2433 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/donkey_braying.mp4'
+693.5601 	EXP 	148,typing_keyboard,video,regular
+693.5601 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/typing_keyboard.mp4'
+697.9487 	EXP 	62,dolphin_call,audio,regular
+702.1916 	EXP 	250,dolphin_call,audio,nback
+704.9934 	DATA 	Keypress: num_add
+706.3606 	EXP 	118,finger_snapping,video,regular
+706.3605 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/finger_snapping.mp4'
+707.4940 	EXP 	19,fireplace,image,regular
+711.5479 	EXP 	60,child_crying,audio,regular
+715.7777 	EXP 	151,baby_laughing,auvid,regular
+715.7776 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/baby_laughing.mp4'
+720.0777 	EXP 	45,steam_train,image,regular
+724.1931 	EXP 	86,person_speaking_in_natural_scene,audio,regular
+728.3087 	EXP 	91,rain,audio,regular
+732.4615 	EXP 	167,eating_sounds,auvid,regular
+732.4614 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/eating_sounds.mp4'
+736.6783 	EXP 	29,lighter,image,regular
+740.8285 	EXP 	196,sweep,auvid,regular
+740.8285 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/sweep.mp4'
+745.1287 	EXP 	41,rain,image,regular
+749.3455 	EXP 	36,person_speaking_in_natural_scene,image,regular
+753.5291 	EXP 	185,person_singing,auvid,regular
+753.5290 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/person_singing.mp4'
+757.8312 	EXP 	77,key_open_a_door,audio,regular
+762.1294 	EXP 	187,piano_player,auvid,regular
+762.1293 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/piano_player.mp4'
+766.4628 	EXP 	250,piano_player,video,nback
+766.4628 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/piano_player.mp4'
+767.3295 	DATA 	Keypress: num_add
+768.4962 	EXP 	110,child_crying,video,regular
+768.4962 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/child_crying.mp4'
+772.7130 	EXP 	15,drinking_sounds,image,regular
+776.8799 	EXP 	138,pig_oink,video,regular
+776.8798 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/pig_oink.mp4'
+781.1467 	EXP 	17,eating_sounds,image,regular
+785.2467 	EXP 	39,plane_taking_off,image,regular
+789.4971 	EXP 	169,fireplace,auvid,regular
+789.4971 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/fireplace.mp4'
+793.8638 	EXP 	133,people_running,video,regular
+793.8637 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/people_running.mp4'
+798.2640 	EXP 	139,plane_taking_off,video,regular
+798.2639 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/plane_taking_off.mp4'
+802.5142 	EXP 	172,hammer_a_nail,auvid,regular
+802.5142 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/hammer_a_nail.mp4'
+806.9161 	EXP 	89,plane_taking_off,audio,regular
+811.1478 	EXP 	113,donkey_braying,video,regular
+811.1478 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/donkey_braying.mp4'
+815.5647 	EXP 	177,key_open_a_door,auvid,regular
+815.5646 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/key_open_a_door.mp4'
+819.8315 	EXP 	20,glass_breaking,image,regular
+823.9848 	EXP 	88,pig_oink,audio,regular
+828.2650 	EXP 	168,finger_snapping,auvid,regular
+828.2650 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/finger_snapping.mp4'
+832.4653 	EXP 	38,pig_oink,image,regular
+836.6655 	EXP 	178,kid_screaming,auvid,regular
+836.6654 	EXP 	unnamed MovieStim3: movie = '/home/adf/yxz921/Stimuli/avima/video/kid_screaming.mp4'
+840.8322 	EXP 	18,finger_snapping,image,regular
+845.0715 	EXP 	71,guitar_plucking,audio,regular
+849.1246 	EXP 	73,heartbeat,audio,regular
+853.4160 	EXP 	22,hammer_a_nail,image,regular
+857.4611 	EXP 	70,glass_breaking,audio,regular
+861.5851 	EXP 	window1: mouseVisible = True
