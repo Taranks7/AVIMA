@@ -21,8 +21,8 @@ python3 mp4.py #download youtube playlist and individual videos
 python3 process_mp4.py #process videos - cut, crop, scale, normalise sound, extract audio, extract image and save
 ```
 
-** Data and AVIMA_analysis ** 
-This is the data collected from the 2020 participants and the analysis of this data. Stimuli used for this research can be found [here:](https://info.com)
+**Data and AVIMA_analysis** 
+This is the data collected from the 2020 participants and the analysis of this data. Stimuli used for this research can be found [here](https://info.com)
 
-** AVIMA_analysis2 ** 
+**AVIMA_analysis2** 
 This is the data and analysis of data collected in 2021 using the shown stimuli 
