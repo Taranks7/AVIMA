@@ -24,4 +24,4 @@ This is the data collected from the 2020 participants and the analysis of this d
 
 **AVIMA_analysis2** 
 
-This is the data and analysis of data collected in 2021 using the shown stimuli. The research used to collect this data can be found [here - Meadows: Multiple arrangements tasks(https://meadows-research.com/experiments/Audio-Visual_RSA/)
+This is the data and analysis of data collected in 2021 using the shown stimuli. The research used to collect this data can be found [here - Meadows: Multiple arrangements tasks](https://meadows-research.com/experiments/Audio-Visual_RSA/)
