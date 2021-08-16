@@ -1,8 +1,5 @@
 # Audio-visual representational similarity analysis (RSA) project for Cognitive Robotics Master's Dissertation 
 
-## Experiment 
-- [Meadows: Multiple arrangements tasks](https://meadows-research.com/experiments/Audio-Visual_RSA/)
-
 ## Set up ## 
 **Setting up the environment:**
 
@@ -22,7 +19,9 @@ python3 process_mp4.py #process videos - cut, crop, scale, normalise sound, extr
 ```
 
 **Data and AVIMA_analysis** 
-This is the data collected from the 2020 participants and the analysis of this data. Stimuli used for this research can be found [here](https://info.com)
+
+This is the data collected from the 2020 participants and the analysis of this data. Stimuli used for this EEG and behavioural research can be found [here](https://meadows-research.com)
 
 **AVIMA_analysis2** 
-This is the data and analysis of data collected in 2021 using the shown stimuli 
+
+This is the data and analysis of data collected in 2021 using the shown stimuli. The research used to collect this data can be found [here - Meadows: Multiple arrangements tasks(https://meadows-research.com/experiments/Audio-Visual_RSA/)
